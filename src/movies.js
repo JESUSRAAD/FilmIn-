@@ -99,6 +99,7 @@ import { movies } from "./data.js";
 
 const movies2 = [...movies];
 
+
 const orderAlphabetically = (array) => {
     array.sort((a, b) => {
         if (a.title < b.title) return -1;
